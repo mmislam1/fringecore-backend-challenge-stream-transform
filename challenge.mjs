@@ -85,7 +85,7 @@ client.on('data', async (data) => {
 
   else {
     let message = await data.toString() //getting only the useful data
-    //console.log(message);
+    
     await array.push(message)                    //enqueue
     proc()
 
