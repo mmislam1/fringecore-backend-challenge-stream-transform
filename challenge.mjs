@@ -56,6 +56,7 @@ function proc() {
 
           }
           receiver.write(message)
+          
           //console.log('>>>>>>>>>>', message)
           
         }
