@@ -50,7 +50,7 @@ function proc() {
         if (j === secret.length - 1) {
           for (let k = 0; k < 32; k++) {
             if (message.charAt(i + k) !== ' ') {
-              message = message.substr(0, i + k) + '_' + message.substr(i + k + 1)
+              message = message.substr(0, i + k) + '-' + message.substr(i + k + 1)
 
             }
 
